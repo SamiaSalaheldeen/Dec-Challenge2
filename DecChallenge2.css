@@ -1,0 +1,128 @@
+html{  margin-left: 18%;
+       margin-right: 18%;
+       background-color: lightblue;
+    }
+    table{background-color: white;}
+    #stadium{
+        background-size: cover;
+        height: 500px;
+        position: relative;
+        background-position: center;
+    }
+    #row1{height: 500px;}
+    #player{
+        display: block;
+        position: absolute;
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
+        padding-block: 200px;
+        top:0.45%;
+        left: 42%;
+      }
+    .notification{
+        display: block;
+        position: absolute;
+        height: 25px;
+        width: 25px;
+        border-radius: 50%;
+        position: absolute;
+        left: 51%;
+        top: 25%;
+        background-color: #45BDE1;
+        text-align: center;
+        color: white;
+        cursor: pointer;
+        font-weight: bold;}
+    .greeting p{
+        position: absolute;
+        top: 10%;
+        left: 35%;
+        font-size: 2.5em;
+        color:white;
+        font-family: 'Courier New', Courier, monospace, 'sans-serf';} 
+    .bars{
+        position: absolute;
+        top: 3%;
+        left: 21%;
+        font-size:25px;
+        color: white;
+        cursor:pointer;}
+    .search{
+        position: absolute;
+        top: 3%;
+        left: 76%;
+        font-size:25px;
+        color: white;
+        cursor:pointer;}
+    .left-angle{
+        position: absolute;
+        top: 49%;
+        left: 21%;
+        font-size:30px;
+        color: white; 
+        cursor:pointer; }
+    .right-angle{
+        position: absolute;
+        top: 49%;
+        left: 76%;
+        font-size:30px;
+        color: white; 
+        cursor:pointer;}
+    .month{
+        text-transform: uppercase;
+        text-align: center;
+        position: absolute;
+        top: 45%;
+        left: 41%;
+        font-size: 30px;
+        color: white;
+        font-family: 'Courier New', Courier, monospace, 'sans-serf';} 
+    #row2{padding-left: 20px;
+        padding-right: 20px;
+        font-size: 25px;
+        color:lightgray;
+        text-align: center;
+        width: 93px;
+        text-transform: uppercase;}
+    #row3{padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 0px;
+        font-size: 25px;
+        text-align: center;
+        width: 93px;
+        cursor:pointer;
+        vertical-align: top;
+        background-color: #f0f0f0;}  
+    .dot {
+        height: 15px;
+        width: 15px;
+        background-color: red;
+        border-radius: 50%;
+        display: inline-block;}
+    .fimage {
+        display: block;
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        left: 45%; 
+        top: 60%;}
+    .secondLine{color: gray;
+        padding-left: 0.5%;
+        text-align: left;}
+    .firstLine{  padding-left: 2%;
+        text-align: left; }
+    .addButton{
+        display: block;
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        position: absolute;
+        left: 75%;
+        top: 90%;
+        background-color:#FC3768;
+        text-align: center;
+        color: white;
+        font-size: 40px;
+        font-weight: bold;  
+    }
